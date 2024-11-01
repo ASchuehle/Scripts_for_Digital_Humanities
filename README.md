@@ -27,3 +27,27 @@ pip install odfpy
 ```
 
 Stelle außerdem sicher, dass du Google Chrome installiert hast, da das Skript den ChromeDriver verwendet.
+
+## youtube_videos_data.py
+
+Dieses Skript sammelt detaillierte Informationen zu YouTube-Videos, die aus einer vorherigen Liste von Video-URLs stammen. Es verwendet die YouTube Data API, um Daten wie Veröffentlichungsdatum, Aufrufe, Likes, Kommentare und die Videolänge zu extrahieren. Die Ergebnisse werden anschließend in einer neuen ODS-Datei gespeichert.
+
+### Voraussetzungen
+
+Um das Skript auszuführen, müssen einige Bibliotheken installiert sein:
+
+- **pandas**: Zum Lesen und Verarbeiten der .ods-Dateien.
+- **google-api-python-client**: Zum Interagieren mit der YouTube Data API.
+- **isodate**: Zum Parsen der Videolänge im ISO 8601-Format.
+- **odfpy**: Zum Exportieren der Ergebnisse in das ODS-Format.
+
+### Installation
+
+Installiere die benötigten Bibliotheken mit den folgenden Befehlen:
+
+```bash
+pip install pandas
+pip install google-api-python-client
+pip install isodate
+pip install odfpy
+```
