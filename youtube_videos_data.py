@@ -58,6 +58,5 @@ API_KEY = 'XXX'  # Setze hier deinen API-Schlüssel zwischen die Anführungszeic
 
 # Abfrage der Quelldatei
 INPUT_FILE = input("Bitte geben Sie den Namen der Quelldatei ein (inklusive der Dateiendung, z.B. 'Youtube_Video_List.ods'): ").strip()
-OUTPUT_FILE = 'Youtube_Data.xlsx'
 
 main(API_KEY, INPUT_FILE)
